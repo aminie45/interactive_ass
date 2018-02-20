@@ -3,7 +3,7 @@
 */
 const submitButton = document.getElementById("submit");
 const MovieTitleInput = document.getElementById("Movie_title");
-const shoebrandInput = document.getElementById("shoe_brand");
+const carbrandInput = document.getElementById("car_brand");
 const planetInput = document.getElementById("planet");
 const superheroInput = document.getElementById("superhero");
 const buildingInput = document.getElementById("building");
@@ -25,7 +25,7 @@ submitButton.onclick = function() {
 	message.textContent = " It was a beautiful day in the land of "
                             + MovieTitleInput.value
 							+ " so I put on my "
-							+ shoebrandInput.value
+							+ carbrandInput.value
 							+ " shoe to go for a walk on "
 							+ planetInput.value
 							+ " with my best friend "
@@ -42,10 +42,10 @@ submitButton.onclick = function() {
                             + adjInput.value
                             + ". We heard " 
                             + verbInput.value
-                            + " coming from upstairs. So, we climbed the stairs. Suddenly, a gust of wind opened a door in front of us and revealed "
+                            + " coming from upstairs. So, we climbed the stairs. Suddenly, a gust of wind opened a door in front of us and revealed a "
                             + animalInput.value
                             + " who was wearing the exact same  " 
-                            + shoebrandInput.value
+                            + carbrandInput.value
 							+ " shoe I was. Suddenly, I woke up. What a weird dream!"
     
     
