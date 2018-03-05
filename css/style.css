@@ -19,6 +19,32 @@ input {
 	margin: 0.9em auto;
     padding: 0.1em 0.9em;
     width: 180px;
+    font-size: 80%;
+}
+
+button{
+    font-size: 80%;
+    width: 80px;
+    padding: 0.3em;
+    border-radius: 8px;
+}
+
+button:hover{
+      background-color: paleturquoise;  
+    }
+
+#submit{
+    background-color: darkcyan;
+    margin-top: 20px;
+    margin-left: -5px;
+    width: 80px;
+    padding: 0.3em;
+    color: white;
+}
+
+#submit:hover{
+    background-color: paleturquoise; 
+    color: black;
 }
 
 p {
